@@ -1,0 +1,12 @@
+Este carpeta contiene todos los archivos necesarios para correr el código elaborado en flask, el archivo finalized_model.sav 
+es donde se tiene guerdado el modelo, y el archivo hello.py el código en python complatible con flask, para correr el código
+es necesario contar con flask instalado y dentro de la carpeta myproject en una ventana de comandos correr los siguientes 
+comandos:
+
+  .venv\Scripts\activate
+
+  flask --app hello run
+
+El primer comando es para iniciar el ambiente, y el segundo para ejecutar el código, una vez ejecutado el código se generara 
+una url con la cual se puede poner en un navegador web y probar la interfaz. En caso que genere error puede ser por las librerias
+asegurese que dentro del ambiente se cuente con las librerias pandas, sckit-learn 1.2.2 y numpy.
